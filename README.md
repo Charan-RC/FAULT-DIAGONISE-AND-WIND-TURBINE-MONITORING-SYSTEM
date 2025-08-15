@@ -15,6 +15,7 @@ If fire is detected, it activates an FM-200 fire suppression system via relay, s
 - Relay control for FM-200 suppression
 
 ## Block Diagram
+Block Diagram.jpg
 
 
 ## Hardware Required
