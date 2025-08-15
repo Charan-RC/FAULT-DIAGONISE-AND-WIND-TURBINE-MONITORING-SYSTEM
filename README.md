@@ -15,7 +15,7 @@ If fire is detected, it activates an FM-200 fire suppression system via relay, s
 - Relay control for FM-200 suppression
 
 ## Block Diagram
-![Block Diagram](images/block_diagram.jpg)
+
 
 ## Hardware Required
 - ESP8266 NodeMCU
@@ -35,8 +35,4 @@ If fire is detected, it activates an FM-200 fire suppression system via relay, s
    - DHT sensor library
    - TinyGPS++
    - ArduinoJson
-3. Edit `fire_safety.ino` and update:
-   ```cpp
-   const char* WIFI_SSID     = "YOUR_SSID";
-   const char* WIFI_PASSWORD = "YOUR_PASS";
-   const char* POST_URL      = "https://your-cloud-endpoint";
+
